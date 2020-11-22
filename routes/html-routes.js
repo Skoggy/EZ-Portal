@@ -60,7 +60,7 @@ router.get('/admin-home/:token', async (req, res) => {
 router.get('/admin-prof/:token', async (req, res) => {
 
     const [xtoken, authData] = await checkToken(req.params.token)
-    const token = { token: xtoken }
+    const token = xtoken
     const tasks = await db.Task.findAll({
         include: [{ model: db.User, as: "assigned_by", attributes: ['first_name', 'last_name', 'RoleId'] }, { model: db.User, as: "assigned_to", attributes: ['first_name', 'last_name', 'RoleId'] }, { model: db.PreDef }],
         where: {
