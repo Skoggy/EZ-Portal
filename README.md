@@ -64,7 +64,7 @@ Ez-Portal is a HR management system, that uses a wide-range of technologies on b
 Click on the pic to see the demo video
 
 admin
-[![SC2 Video](./assets/login.png)](https://drive.google.com/file/d/1RA8wnO_QdJqV-CAua9YH344vfaLAgmgf/view)
+[![SC2 Video](./assets/login.png)](https://drive.google.com/file/d/1RLoQmJxGUzIxj5a1WK21ioCdtzSpIECC/view)
 
 manager
 [![SC2 Video](./assets/login.png)](https://drive.google.com/file/d/1RA8wnO_QdJqV-CAua9YH344vfaLAgmgf/view)
