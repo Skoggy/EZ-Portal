@@ -13,12 +13,14 @@ $('#change-pass').submit((e) => {
                 old_pass: $('#old').val()
 
             }
-        }).then((result) => {
-            console.log(result)
+        }).then(async (result) => {
             if (result.msg == "failed to update, wrong old password") {
                 alertify.alert('Password Change Error', 'Wrong Old Password!');
             } else {
-                alertify.alert('Password Change Success', 'Password Changed Succesfully', () => location.href('/'))
+                await alertify.alert('Password Change Success', 'Password Changed Succesfully', function () {
+                    location.assign('/')
+                })
+
 
             }
         })
