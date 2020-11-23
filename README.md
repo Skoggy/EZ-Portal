@@ -59,6 +59,7 @@ Ez-Portal is a HR management system, that uses a wide-range of technologies on b
 	>  node server.js
 6. Type the following address on your browser to start using the app
 	>  http://localhost:8080/
+7. Use email address of first admin account and default password of 123456789 to login
 
 ## Demo
 Click on the pic to see the demo video
@@ -83,7 +84,7 @@ Please, send any question to:
 1. Tony Melek [tonymelek.au@gmail.com](mailto:tonymelek.au@gmail.com)
 2. Christopher [Chris.skogstad1@gmail.com](mailto:Chris.skogstad1@gmail.com)
 3. Alan Chang [pichengchang@gmail.com](mailto:pichengchang@gmail.com)
-4. Daniel Zhang
+4. Daniel Zhang [danielshiaolin@gmail.com](mailto:danielshiaolin@gmail.com)
 
 ## License
 The project is protected under MIT,you may need to read through license conditions
